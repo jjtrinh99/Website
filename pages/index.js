@@ -34,8 +34,8 @@ export default function Home() {
         <div className={styles.card.active}>
           <a> 
             <h2>Education</h2>
-            who cares bruh <br /> <br />
-            <a>University of California, Irvine | ECE blah blah</a> <br />
+       
+            <a>University of California, Irvine</a> <br />
             CGPA: 3.62 <br /> <br />
 
             <a> University of California, Riverside | EE man whatever</a> <br />
