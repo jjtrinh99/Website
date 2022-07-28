@@ -16,39 +16,113 @@ export default function Home() {
           Jonathan Trinh
         </h1>
 
-        <p className={styles.description}>
-          My LinkedIn:{' '}
-           <a href="https://www.linkedin.com/in/jontrinh/">Here</a>
-           {"\n"}Current Grad Student studying Computer Engineering @ UCI
-        </p>
+   
+           <br /><p className={styles.code}>Master's student studying Computer Engineering @ UCI</p> 
+           
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+        <a className={styles.title}></a>
+       
+        Nice seein' you out here. Computer Engineer based in California, graduating in December 2022. 
+        <br />Looking into new-grad full-time roles in Software Development Engineering (SDE).
+
+      
+       <br /><h2>Contact Info</h2>
+       <a href="mailto: jontrinh99@gmail.com?"> Email &uarr;</a>
+       <a href="https://www.linkedin.com/in/jontrinh/"> LinkedIn &uarr;</a>
+       <a href="https://www.instagram.com/infinitrinh/"> Photography Instagram &uarr;</a>
+
+        <div className={styles.card.active}>
+          <a> 
+            <h2>Education</h2>
+            who cares bruh <br /> <br />
+            <a>University of California, Irvine | ECE blah blah</a> <br />
+            CGPA: 3.62 <br /> <br />
+
+            <a> University of California, Riverside | EE man whatever</a> <br />
+            CGPA: 3.32 <br /> <br />
+          </a>
+        
+          <a href="https://github.com/jjtrinh99" className={styles.card}>
+            <h2>Github &rarr;</h2>
+            <p>Find out what's on my Github! All my project code is stored here. <br /></p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a className={styles.card}>
+            <h2>Projects</h2>
+            Smart Vase IoT 
+            <br /> Dec. 2021
+            <br /> <br />
+
+            Smart Pillow IoT 
+            <br /> June 2021
+            <br /> <br />
+
+            Meet The Earth 
+            <br /> Sep. 2021
+            <br /> <br />
+
+            Low Cost PCR on Microfluidic Device
+            <br /> Sep. 2019
+            <br /> <br />
+
+            Smart Street Intersection
+            <br /> June 2019
+            
+
+
+            <br /> <br />
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Work Experience</h2>
+
+            <p>Lumen Technologies</p>
+            <a> Project Management Intern</a> <br />
+            June 2022 - August 2022
+            <br /> <br />
+
+            <p>Academic Resource Center</p>
+            <a>University of California, Riverside <br /> <br /></a> 
+            <a> IAW Lab Leader (Instructor)</a> <br /> 
+            May 2020 - June 2021
+            <br /> <br />
+            <a> IAW Lab Reader (Grader)</a> <br />
+            May 2019 - June 2021
+            <br /> <br />
+
+            <p>Research Assistant (Embedded Systems)</p>
+            <a> University of California, Riverside</a> <br />
+            September 2018 - June 2019
+            <br /> <br />
+
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+          <a className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Volunter Experience</h2>
+          
+            <p>Director</p>
+            <a> Citrus Hack</a> <br />
+            May 2020 - June 2021
+            <br /> <br />
+
+            <p>Sponsorship Lead</p>
+            <a> Citrus Hack</a> <br />
+            June 2019 - May 2020
+            <br /> <br />
+
+            <p>Secretary</p>
+            <a> Materials Research Society (MRS)</a> <br />
+            June 2019 - June 2020
+            <br /> <br />
+
+            <p>Historian</p>
+            <a> Materials Research Society</a> <br />
+            Sept. 2018 - June 2020
+            <br /> <br />
+            
           </a>
         </div>
       </main>
