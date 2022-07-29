@@ -38,8 +38,7 @@ export default function Home() {
             <a>University of California, Irvine</a>
              <br />
             CGPA: 3.62 
-            <br />
-             <br />
+            <br /><br />
 
             <a> University of California, Riverside | EE man whatever</a> <br />
             CGPA: 3.32
@@ -55,23 +54,19 @@ export default function Home() {
             <h2>Projects</h2>
             Smart Vase IoT 
             <br /> Dec. 2021
-            <br /> 
-            <br />
+            <br /> <br />
 
             Smart Pillow IoT 
             <br /> June 2021
-            <br />
-             <br />
+            <br /><br />
 
             Meet The Earth 
             <br /> Sep. 2021
-            <br />
-             <br />
+            <br /><br />
 
             Low Cost PCR on Microfluidic Device
             <br /> Sep. 2019
-            <br /> 
-            <br />
+            <br />  <br />
 
             Smart Street Intersection
             <br /> June 2019
@@ -89,25 +84,21 @@ export default function Home() {
             <p>Lumen Technologies</p>
             <a> Project Management Intern</a> <br />
             June 2022 - August 2022
-            <br /> 
-            <br />
+            <br />  <br />
 
             <p>Academic Resource Center</p>
             <a>University of California, Riverside <br /> <br /></a> 
             <a> IAW Lab Leader (Instructor)</a> <br /> 
             May 2020 - June 2021
-            <br /> 
-            <br />
+            <br /> <br />
             <a> IAW Lab Reader (Grader)</a> <br />
             May 2019 - June 2021
-            <br /> 
-            <br />
+            <br />  <br />
 
             <p>Research Assistant (Embedded Systems)</p>
             <a> University of California, Riverside</a> <br />
             September 2018 - June 2019
-            <br /> 
-            <br />
+            <br />  <br />
 
           </a>
 
@@ -118,26 +109,22 @@ export default function Home() {
             <p>Director</p>
             <a> Citrus Hack</a> <br />
             May 2020 - June 2021
-            <br /> 
-            <br />
+            <br />    <br />
 
             <p>Sponsorship Lead</p>
             <a> Citrus Hack</a> <br />
             June 2019 - May 2020
-            <br /> 
-            <br />
+            <br />   <br />
 
             <p>Secretary</p>
             <a> Materials Research Society (MRS)</a> <br />
             June 2019 - June 2020
-            <br /> 
-            <br />
+            <br />  <br />
 
             <p>Historian</p>
             <a> Materials Research Society</a> <br />
             Sept. 2018 - June 2020
-            <br /> 
-            <br />
+            <br /> <br />
             
           </a>
         </div>
