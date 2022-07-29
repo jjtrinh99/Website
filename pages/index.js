@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-           Jonathan Trinh
+           <a>Jonathan Trinh</a>
         </h1>
 
    
