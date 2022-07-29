@@ -36,7 +36,8 @@ export default function Home() {
             <h2>Education</h2>
        
             <a>University of California, Irvine</a> <br />
-            CGPA: 3.62 <br /> <br />
+            CGPA: 3.62 <br />
+             <br />
 
             <a> University of California, Riverside | EE man whatever</a> <br />
             CGPA: 3.32 <br /> <br />
