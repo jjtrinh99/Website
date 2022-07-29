@@ -18,7 +18,7 @@ export default function Home() {
 
    
            <br /><p className={styles.code}>Master's student studying Computer Engineering @ UCI</p> 
-           
+        
 
         <a className={styles.title}></a>
        
@@ -27,7 +27,9 @@ export default function Home() {
 
       
        <br /><h2>Contact Info</h2>
-       <a href="mailto: jontrinh99@gmail.com?"> Email &uarr;</a>
+       <a 
+       href="mailto: jontrinh99@gmail.com?"> Email &uarr;
+       </a>
        <a href="https://www.linkedin.com/in/jontrinh/"> LinkedIn &uarr;</a>
        <a href="https://www.instagram.com/infinitrinh/"> Photography Instagram &uarr;</a>
 
@@ -38,42 +40,19 @@ export default function Home() {
             <a>University of California, Irvine</a>
              <br />
             CGPA: 3.62 
-            <br /><br />
+            <br /> <br />
 
-            <a> University of California, Riverside | EE man whatever</a> <br />
+            <a> University of California, Riverside | EE man whatever</a> 
+            <br />
             CGPA: 3.32
              <br /> <br />
           </a>
         
           <a href="https://github.com/jjtrinh99" className={styles.card}>
             <h2>Github &rarr;</h2>
-            <p>Find out what's on my Github! All my project code is stored here. <br /></p>
-          </a>
-
-          <a className={styles.card}>
-            <h2>Projects</h2>
-            Smart Vase IoT 
-            <br /> Dec. 2021
-            <br /> <br />
-
-            Smart Pillow IoT 
-            <br /> June 2021
-            <br /><br />
-
-            Meet The Earth 
-            <br /> Sep. 2021
-            <br /><br />
-
-            Low Cost PCR on Microfluidic Device
-            <br /> Sep. 2019
-            <br />  <br />
-
-            Smart Street Intersection
-            <br /> June 2019
-            
-
-
-            <br /> <br />
+            <p>Find out what's on my Github! All my project code is stored here. 
+              <br />
+              </p>
           </a>
 
           <a
@@ -82,22 +61,27 @@ export default function Home() {
             <h2>Work Experience</h2>
 
             <p>Lumen Technologies</p>
-            <a> Project Management Intern</a> <br />
+            <a> Project Management Intern</a> 
+            <br />
             June 2022 - August 2022
             <br />  <br />
 
             <p>Academic Resource Center</p>
-            <a>University of California, Riverside <br /> <br /></a> 
-            <a> IAW Lab Leader (Instructor)</a> <br /> 
+            <a>University of California, Riverside <br /> <br />
+            </a> 
+            <a> IAW Lab Leader - Instructor</a> 
+            <br /> 
             May 2020 - June 2021
             <br /> <br />
-            <a> IAW Lab Reader (Grader)</a> <br />
+            <a> IAW Lab Reader (Grader)</a> 
+            <br />
             May 2019 - June 2021
             <br />  <br />
 
             <p>Research Assistant (Embedded Systems)</p>
-            <a> University of California, Riverside</a> <br />
-            September 2018 - June 2019
+            <a> University of California, Riverside</a>
+             <br />
+            Sept. 2018 - June 2019
             <br />  <br />
 
           </a>
@@ -107,9 +91,10 @@ export default function Home() {
             <h2>Volunter Experience</h2>
           
             <p>Director</p>
-            <a> Citrus Hack</a> <br />
+            <a> Citrus Hack</a> 
+            <br />
             May 2020 - June 2021
-            <br />    <br />
+            <br /><br />
 
             <p>Sponsorship Lead</p>
             <a> Citrus Hack</a> <br />
@@ -117,17 +102,68 @@ export default function Home() {
             <br />   <br />
 
             <p>Secretary</p>
-            <a> Materials Research Society (MRS)</a> <br />
+            <a> Materials Research Society (MRS)</a>
+             <br />
             June 2019 - June 2020
             <br />  <br />
 
             <p>Historian</p>
-            <a> Materials Research Society</a> <br />
+            <a> Materials Research Society</a> 
+            <br />
             Sept. 2018 - June 2020
-            <br /> <br />
+            <br />
+             <br />
             
           </a>
         </div>
+
+        <div 
+          className={styles.block}
+          >
+            <h2>Projects</h2>
+
+            <p href="https://github.com/jjtrinh99"
+          className={styles.card}
+          >
+                <p>Smart Vase IoT &rarr;</p>
+               <br /> Nov. 2021 - Dec. 2021
+            <br /> <br />
+            </p>
+
+            <p href="https://github.com/jjtrinh99"
+          className={styles.card}
+          >
+            <p> Smart Pillow IoT &rarr;</p>
+            <br /> Sept. 2021 - June 2021
+            <br /><br />
+            </p>
+
+            <p href="https://github.com/jjtrinh99"
+          className={styles.card}
+          >
+            <p>Meet The Earth &rarr;</p> 
+            <br /> July 2021 - Sept. 2021
+            <br /><br />
+            </p>
+
+            <p href="https://github.com/jjtrinh99"
+          className={styles.card}
+          >
+            <p>Low Cost PCR on Microfluidic Device &rarr;</p>
+            <br />Sept 2018 - Sept. 2019
+            <br />  <br />
+            </p>
+
+            <p href="https://github.com/jjtrinh99"
+          className={styles.card}
+          >
+           <p>Smart Street Intersection &rarr;</p> 
+            <br /> May 2019 - June 2019
+            <br /> <br />
+          </p>
+
+          </div>
+
       </main>
 
       <footer className={styles.footer}>
