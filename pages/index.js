@@ -18,37 +18,46 @@ export default function Home() {
            <a>Jonathan Trinh</a>
         </h1>
 
-   
-           <br /><p className={styles.code}>Master's student studying Computer Engineering @ UCI</p> 
-        
-
-        <a className={styles.title}></a>
+  
+           <br /><p className={styles.code}>Master's student studying Computer Engineering @ UCI 
+       </p> 
        
-        Nice seein' you out here. Computer Engineer based in California, graduating in December 2022. 
-        <br />Looking into new-grad full-time roles in Software Development Engineering (SDE).
-
+       <p className={styles.description}>Nice seein' you out here. <span className={styles.logo}>
+            <Image src="/waving-hand.svg" width={72} height={72} />
+          </span><br /><br /> Computer Engineer based in California, graduating in December 2022. 
+          Looking into new-grad full-time roles in Software Development Engineering (SDE). 
+          
+        <br /><br />Hope you can find more about me; I've included my Work + Volunteering Experience, Projects worked on, and some hobbies.
+</p> 
       
        <br /><h2>Contact Info</h2>
+       <a>Feel free to reach out to me through any of the platforms directly below. </a> <br />
        <a 
-       href="mailto: jontrinh99@gmail.com?"> Email &uarr;
+       href="mailto: jontrinh99@gmail.com?"> Email &crarr;
        </a>
-       <a href="https://www.linkedin.com/in/jontrinh/"> LinkedIn &uarr;</a>
-       <a href="https://www.instagram.com/infinitrinh/"> Photography Instagram &uarr;</a>
+       <a href="https://www.linkedin.com/in/jontrinh/"> LinkedIn &crarr;</a>
+       <a href="https://www.instagram.com/infinitrinh/"> Photography Instagram &crarr;</a>
 
-        <div className={styles.card.active}>
-          <a> 
-            <h2>Education</h2>
-       
-            <a>University of California, Irvine</a>
-             <br />
-            CGPA: 3.62 
-            <br /> <br />
+     
+          
 
-            <a> University of California, Riverside | EE man whatever</a> 
-            <br />
-            CGPA: 3.32
-             <br /> <br />
-          </a>
+          <div class="id1">
+            <h1>Education </h1>
+          </div>
+          <div class="id2">
+            University of California, Irvine <br />
+            Master of Science; Computer Engineering <br /><br />
+            University of California, Riverside<br />
+            Bachelor of Science; Electrical Engineering 
+            <div class="id3"></div>
+            <div class="id4">
+              June 2022 - Dec. 2022 <br />
+              CGPA: 3.62 <br /><br />
+              Sept. 2017 - June 2021 <br />
+              CGPA: 3.32
+              <br /> <br />
+            </div>
+          </div>
         
           <a href="https://github.com/jjtrinh99" className={styles.card}>
             <h2>Github &rarr;</h2>
@@ -117,7 +126,7 @@ export default function Home() {
              <br />
             
           </a>
-        </div>
+        
 
         <div 
           className={styles.block}
@@ -165,19 +174,15 @@ export default function Home() {
           </a>
 
           </div>
-
+          
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://www.youtube.com/watch?v=xm3YgoEiEDc&ab_channel=10Hours"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Shoutout to Danial Beg and Rajbir Johar.
+         
         </a>
       </footer>
     </div>

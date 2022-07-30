@@ -31,6 +31,7 @@
 .title a {
   color: #f7f7f7;
   text-decoration: italic;
+  text-decoration: bold;
 }
 
 .title a:hover,
@@ -51,9 +52,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
-  font-size: .8rem;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .code {
@@ -76,7 +78,7 @@
 
 .card {
   display:inline-block;
-  width: 30%;
+  width: 40%;
   margin: 1.5rem;
   padding: 1.5rem;
   text-align: left;
@@ -125,6 +127,7 @@
   }
   .footer {
     border-color: #444;
+    font-size: 0.6rem;
   }
   .code {
     background: #444;
