@@ -20,7 +20,7 @@ export default function Home() {
         </overallH>
 
   
-           <br /><p className={styles.code}>Master&#39;s student studying Computer Engineering @ UCI 
+           <br /><p className={styles.code}>Master&#39;s student studying Computer Engineering &#64;UCI 
        </p> 
        
        <p className={styles.description}>Nice seein&#39; you out here&#46; <span className={styles.logo}>
@@ -28,18 +28,18 @@ export default function Home() {
           </span><br /><br /> <a>Computer Engineer based in California&#44; graduating in December 2022&#46;
           Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</a>
           
-        <br /><br />Hope you can find more about me&#58; I've included my Work + Volunteering Experience&#46; Projects worked on&#44; and some hobbies&#46;
+        <br /><br />Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#46; Projects worked on&#44; and some hobbies&#46;
 </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
             <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
        <a>Feel free to reach out to me through any of the platforms directly below&#46; </a> <br />
        <a 
-       href="mailto: jontrinh99@gmail.com?" target="_blank"> Email &crarr;
+       href="mailto: jontrinh99@gmail.com?" target="_blank" rel="noreferrer"> Email &crarr;
        </a>
-       <a href="https://www.linkedin.com/in/jontrinh/" target="_blank"> LinkedIn &crarr;</a>
+       <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer"> LinkedIn &crarr;</a>
        <a href="https://github.com/jjtrinh99 " target="_blank"> Github &crarr;</a>
-       <a href="https://www.instagram.com/infinitrinh/" target="_blank"> Photography Instagram &crarr;</a>
+       <a href="https://www.instagram.com/infinitrinh/" target="_blank" rel="noreferrer"> Photography Instagram &crarr;</a>
   
 
           <div className="id1">
@@ -48,9 +48,9 @@ export default function Home() {
           </div>
           <div className="id2">
             University of California&#44; Irvine <br />
-            Master of Science; Computer Engineering <br /><br />
+            Master of Science	&#59; Computer Engineering <br /><br />
             University of California&#44; Riverside<br />
-            Bachelor of Science; Electrical Engineering 
+            Bachelor of Science	&#59; Electrical Engineering 
             <div className="id3"></div>
             <div className="id4">
               June 2022 - Dec&#46; 2022 <br />
@@ -98,7 +98,7 @@ export default function Home() {
               <br />&#8226;Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;Help research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;Fabricated various schematics to test various cycling techniques to perform PCR&#46;
-              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank">Report here &crarr;; Presentation can be found under Projects&#46;</a>
+              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer">Report here &crarr;; Presentation can be found under Projects&#46;</a>
             </a>
 
             </a>
@@ -115,7 +115,7 @@ export default function Home() {
                   <br />
                   &#8226;Lead a committee consisting of team leads and subcommittees&#44; inclusive of Sponsorship&#44; Web Development&#44; Operations&#44; &amp; Marketing&#46;
                   <br /><br />&#8226;Streamline and centralize workflow towards an impactful hackathon through documentation&#44; inclusivity&#44; engagement&#44; and collaboration&#46;
-                  <br /><br />&#8226;Organize UCR's and the Inland Empire's biggest hackathon&#44; Citrus Hack&#44; capped at 500 hackers &#40;900 applicants&#41;&#44; and our sister hackathon&#44; Cutie Hack&#44; which had 450 hackers&#46;
+                  <br /><br />&#8226;Organize UCR&#39;s and the Inland Empire&#39;s biggest hackathon&#44; Citrus Hack&#44; capped at 500 hackers &#40;900 applicants&#41;&#44; and our sister hackathon&#44; Cutie Hack&#44; which had 450 hackers&#46;
                 </a>
 
                 <a  className={styles.card}>
@@ -154,7 +154,7 @@ export default function Home() {
         
           <a>
 
-            <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" className={styles.card}>
+            <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer" className={styles.card}>
               <p><title>Personal Site &rarr; </title><date><br />Aug. 2022 - Current</date></p>
               <br />
               <br />&#8226;Making my personal site&#46; Working on adding features to make the site look better&#33;
@@ -164,7 +164,7 @@ export default function Home() {
           
           </a>
 
-            <a href="https://docs.google.com/document/d/1Xkci0hA98UrtymjMoVoA1M5H1dRsxnQ0aHoMEtcKdek/edit?usp=sharing" target="_blank"
+            <a href="https://docs.google.com/document/d/1Xkci0hA98UrtymjMoVoA1M5H1dRsxnQ0aHoMEtcKdek/edit?usp=sharing" target="_blank" rel="noreferrer"
           className={styles.card}
           >
         
@@ -176,7 +176,7 @@ export default function Home() {
           
           </a>
 
-            <a href="hhttps://docs.google.com/document/d/1K9Kk7v5S7woE3pdP6iqIU7xLfaW-thwBnI_xWZO0x8k/edit" target="_blank"
+            <a href="hhttps://docs.google.com/document/d/1K9Kk7v5S7woE3pdP6iqIU7xLfaW-thwBnI_xWZO0x8k/edit" target="_blank" rel="noreferrer"
           className={styles.card}
           >
             <p> <title>Smart Pillow IoT &rarr;</title><date><br /> Sept&#46; 2021 - June 2021</date></p>
@@ -188,17 +188,17 @@ export default function Home() {
           </a>
           
 
-            <a href="https://docs.google.com/document/d/1pYLFrX4qAp_fLJdlanWYrLAlOdWDGDz_FReZX_Z_H0Q/edit" target="_blank"
+            <a href="https://docs.google.com/document/d/1pYLFrX4qAp_fLJdlanWYrLAlOdWDGDz_FReZX_Z_H0Q/edit" target="_blank" rel="noreferrer"
           className={styles.card}
           >
             <p><title>Meet The Earth &rarr; </title><date><br /> July 2021 - Sept&#46; 2021</date></p> 
             <br />&#8226;iOS App Development. Implemented on XCode 11 with Swift 5&#46;1
             <br /><br />&#8226;Collaborate with and lead a team to develop an iOS App&#46; Github is included in the technical report&#46;
-            <br /><br />&#8226;Geared towards a user's health and fitness&#44; specifically in powerlifting&#46;
+            <br /><br />&#8226;Geared towards a user&#39;s health and fitness&#44; specifically in powerlifting&#46;
             <br /><br />&#8226; Utilizes CocoaPads and Firebase to implement Calendar Framework &amp; RealTime Database&#46;
           </a>
 
-            <a href="https://docs.google.com/presentation/d/120sBDQv1Sr-K6onshXQiYKaA25wh7cVHcz5I15wKU9Q/edit#slide=id.p" target="_blank"
+            <a href="https://docs.google.com/presentation/d/120sBDQv1Sr-K6onshXQiYKaA25wh7cVHcz5I15wKU9Q/edit#slide=id.p" target="_blank" rel="noreferrer"
           className={styles.card}
           >
             <p><title>Low Cost PCR on Microfluidic Device &rarr;</title><date><br />Sept 2018 - Sept&#46; 2019</date></p>
@@ -207,7 +207,7 @@ export default function Home() {
               <br /><br />&#8226;Participated in initial wet and dry testing to validate device integrity and heating and its ability to meet heating&#46;;
           </a>
 
-            <a href="https://docs.google.com/document/d/155uo9RAQhZOzTAOQ9Ve1RDytzQzga8hz/edit?usp=sharing&amp;ouid=109920275224725165600&amp;rtpof=true&amp;sd=true" target="_blank"
+            <a href="https://docs.google.com/document/d/155uo9RAQhZOzTAOQ9Ve1RDytzQzga8hz/edit?usp=sharing&amp;ouid=109920275224725165600&amp;rtpof=true&amp;sd=true" target="_blank" rel="noreferrer"
           className={styles.card}
           >
            <p><title>Smart Street Intersection &rarr;</title><date><br /> May 2019 - June 2019</date></p> 
@@ -223,7 +223,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://www.youtube.com/watch?v=xm3YgoEiEDc&amp;ab_channel=10Hours" target="_blank"
+          href="https://www.youtube.com/watch?v=xm3YgoEiEDc&amp;ab_channel=10Hours" target="_blank" rel="noreferrer"
         >
           Shoutout to Danial Beg and Rajbir Johar&#46;
         </a>
