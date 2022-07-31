@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import React from "react";
 
 
 export default function Home() {
@@ -14,43 +15,44 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-           <a>Jonathan Trinh</a>
-        </h1>
+        <overallH className={styles.title}>
+           <overallH>Jonathan Trinh</overallH>
+        </overallH>
 
   
            <br /><p className={styles.code}>Master's student studying Computer Engineering @ UCI 
        </p> 
        
        <p className={styles.description}>Nice seein' you out here. <span className={styles.logo}>
-            <Image src="/waving-hand.svg" width={72} height={72} />
+            <Image src="/waving-hand.svg" width={72} height={40} />
           </span><br /><br /> Computer Engineer based in California, graduating in December 2022. 
           Looking into new-grad full-time roles in Software Development Engineering (SDE). 
           
         <br /><br />Hope you can find more about me; I've included my Work + Volunteering Experience, Projects worked on, and some hobbies.
 </p> 
       
-       <br /><h2>Contact Info</h2>
+       <br /><h2>Contact Info <span className={styles.logo}>
+            <Image src="/phoneit.svg" width={72} height={40} /></span></h2>
        <a>Feel free to reach out to me through any of the platforms directly below. </a> <br />
        <a 
-       href="mailto: jontrinh99@gmail.com?"> Email &crarr;
+       href="mailto: jontrinh99@gmail.com?" target="_blank"> Email &crarr;
        </a>
-       <a href="https://www.linkedin.com/in/jontrinh/"> LinkedIn &crarr;</a>
-       <a href="https://www.instagram.com/infinitrinh/"> Photography Instagram &crarr;</a>
+       <a href="https://www.linkedin.com/in/jontrinh/" target="_blank"> LinkedIn &crarr;</a>
+       <a href="https://github.com/jjtrinh99 " target="_blank"> Github &crarr;</a>
+       <a href="https://www.instagram.com/infinitrinh/" target="_blank"> Photography Instagram &crarr;</a>
+  
 
-     
-          
-
-          <div class="id1">
-            <h1>Education </h1>
+          <div className="id1">
+            <h1>Education <span className={styles.logo}>
+            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h1>
           </div>
-          <div class="id2">
+          <div className="id2">
             University of California, Irvine <br />
             Master of Science; Computer Engineering <br /><br />
             University of California, Riverside<br />
             Bachelor of Science; Electrical Engineering 
-            <div class="id3"></div>
-            <div class="id4">
+            <div className="id3"></div>
+            <div className="id4">
               June 2022 - Dec. 2022 <br />
               CGPA: 3.62 <br /><br />
               Sept. 2017 - June 2021 <br />
@@ -58,128 +60,169 @@ export default function Home() {
               <br /> <br />
             </div>
           </div>
-        
-          <a href="https://github.com/jjtrinh99" className={styles.card}>
-            <h2>Github &rarr;</h2>
-            <p>Find out what's on my Github! All my project code is stored here. 
-              <br />
-              </p>
-          </a>
-
-          <a
-            className={styles.card}
+      
+          <div
+            className={styles.block}
           >
             <h2>Work Experience</h2>
 
-            <p>Lumen Technologies</p>
-            <a> Project Management Intern</a> 
-            <br />
-            June 2022 - August 2022
-            <br />  <br />
+          <a>
 
-            <p>Academic Resource Center</p>
-            <a>University of California, Riverside <br /> <br />
-            </a> 
-            <a> IAW Lab Leader - Instructor</a> 
-            <br /> 
-            May 2020 - June 2021
-            <br /> <br />
-            <a> IAW Lab Reader (Grader)</a> 
-            <br />
-            May 2019 - June 2021
-            <br />  <br />
+            <a  className={styles.card}>
+              <p><title>Project Management Intern</title><a>Lumen Technologies </a><br /> <date>June 2022 - Aug. 2022</date></p>
+              <br />
+              •Study the workflows of various employees around the company including engineers, managers, and contractors, to streamline needed documentation and bottlenecks for convenience.
+              <br /><br />•Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates.
+              <br /><br />•Gain exposure to various softwares such as Jira &amp; Agile.
+            </a>
 
-            <p>Research Assistant (Embedded Systems)</p>
-            <a> University of California, Riverside</a>
-             <br />
-            Sept. 2018 - June 2019
-            <br />  <br />
+            <a  className={styles.card}>
+              <p><title>IAW Lab Leader (Instructor)</title><a>Academic Resource Center; <br /> University of California, Riverside<date><br />May 2020 - June 2021</date></a></p>
+              <br />
+              •Leverage the usage of internet domains to teach intermediate algebra to students. 
+              <br /><br />•Conduct lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts. 
+              <br /><br />•Enhance communication and teaching skills to provide an inclusive learning environment for students.
+            </a>
 
-          </a>
+            <a  className={styles.card}>
+              <p><title>IAW Reader (Grader)</title><a>Academic Resource Center; <br /> University of California, Riverside<date><br />May 2019 - June 2021</date></a></p>
+              <br />
+              •Evaluate and record performance of students and assist instructors in grading upwards of 600+ exams.
+              <br /><br />•Maintain records documenting student performance in IAW assessment.
+              <br /><br />•Follow guidelines set forth by Math dept. &amp; IAW coordinators.
+            </a>
 
-          <a className={styles.card}
+            <a  className={styles.card}>
+              <p><title>Research Assistant (Embedded Systems)</title><a> University of California, Riverside; <br /><date>Sept. 2018 - Sept. 2019</date></a><br /></p>
+              <br />
+              <br />•Department of CSE (Embedded Systems Lab). Worked under Dr. Brian Crites &amp; Dr. Philip Brisk.
+              <br /><br />•Help research in microfluidic fabrication and integration with electrical systems to aid in automation.
+              <br /><br />•Fabricated various schematics to test various cycling techniques to perform PCR.
+              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank">Report here &crarr;; Presentation can be found under Projects.</a>
+            </a>
+
+            </a>
+
+          </div>
+
+          <div className={styles.block } 
           >
             <h2>Volunter Experience</h2>
-          
-            <p>Director</p>
-            <a> Citrus Hack</a> 
-            <br />
-            May 2020 - June 2021
-            <br /><br />
+              <a>
 
-            <p>Sponsorship Lead</p>
-            <a> Citrus Hack</a> <br />
-            June 2019 - May 2020
-            <br />   <br />
+                <a  className={styles.card}>
+                  <p><title>Director</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2020 - June 2021</date></a><br /></p>
+                  <br />
+                  •Lead a committee consisting of team leads and subcommittees, inclusive of Sponsorship, Web Development, Operations, &amp; Marketing. 
+                  <br /><br />•Streamline and centralize workflow towards an impactful hackathon through documentation, inclusivity, engagement, and collaboration. 
+                  <br /><br />•Organize UCR's and the Inland Empire's biggest hackathon, Citrus Hack, capped at 500 hackers (900 applicants), and our sister hackathon, Cutie Hack, which had 450 hackers.
+                </a>
 
-            <p>Secretary</p>
-            <a> Materials Research Society (MRS)</a>
-             <br />
-            June 2019 - June 2020
-            <br />  <br />
+                <a  className={styles.card}>
+                  <p><title>Sponsorship Lead</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2019 - May 2020</date></a><br /></p>
+                  <br />
+                  •Raise upwards of $20,000 to fund Citrus Hack, a 36-hour hackathon, along with Cutie Hack, a 12-hour sister hackathon.
+                  <br /><br />•Sponsors included GCP, Sketch, &amp; WolframAlpha.
+                </a>
 
-            <p>Historian</p>
-            <a> Materials Research Society</a> 
-            <br />
-            Sept. 2018 - June 2020
-            <br />
-             <br />
-            
-          </a>
+                <a  className={styles.card}>
+                  <p><title>Secretary</title><br /><a> Materials Research Society (MRS)<br /><date>June 2019 - June 2020</date></a><br /></p>
+                  <br />
+                  •Maintain records of meeting notes and meeting minutes, along with various paperwork and forms.
+                  <br /><br />•Manage emails, summarize contents meetings and events for members and club participants
+                  <br /><br />•Assist the President and VP in organizing meetings and various club competitions
+                </a>
+
+                <a  className={styles.card}>
+                  <p><title>Historian</title><br /><a> Materials Research Society (MRS)<br /><date>Sept. 2018 - June 2019</date></a><br /></p>
+                  <br />
+                  •Take and upload pictures for events and meetings hosted
+                  <br /><br />•Work with outreach chair &amp; promote events through social media /w pictures and advertisement
+                  <br /><br />•Work with Webmaster to upload pictures and content for website, events, etc.  
+                  <br /><br />•Side note: Sparked my hobby of Photography.
+                </a>
+
+              </a>
+
+          </div>
         
 
         <div 
           className={styles.block}
           >
-            <h2>Projects</h2>
+            <h2>Projects &amp; Work Done</h2>
+        
+          <a>
 
-            <a href="https://github.com/jjtrinh99"
-          className={styles.card}
-          >
-                <p>Smart Vase IoT &rarr;</p>
-               <br /> Nov. 2021 - Dec. 2021
-            <br /> <br />
+            <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" className={styles.card}>
+              <p><title>Personal Site &rarr; </title><date><br />Aug. 2022 - Current</date></p>
+              <br />
+              <br />•Making my personal site. Working on adding features to make the site look better!
+              <br /><br /> •Built with React, NextJS, and deployed through Vercel.
+              <br /><br /> •Special shoutout to Rajbir Johar, Danial Beg, and Suhas Jagannath.
             </a>
-
-            <a href="https://github.com/jjtrinh99"
-          className={styles.card}
-          >
-            <p> Smart Pillow IoT &rarr;</p>
-            <br /> Sept. 2021 - June 2021
-            <br /><br />
-            </a>
-
-            <a href="https://github.com/jjtrinh99"
-          className={styles.card}
-          >
-            <p>Meet The Earth &rarr;</p> 
-            <br /> July 2021 - Sept. 2021
-            <br /><br />
-            </a>
-
-            <a href="https://github.com/jjtrinh99"
-          className={styles.card}
-          >
-            <p>Low Cost PCR on Microfluidic Device &rarr;</p>
-            <br />Sept 2018 - Sept. 2019
-            <br />  <br />
-            </a>
-
-            <a href="https://github.com/jjtrinh99"
-          className={styles.card}
-          >
-           <p>Smart Street Intersection &rarr;</p> 
-            <br /> May 2019 - June 2019
-            <br /> <br />
+          
           </a>
 
-          </div>
+            <a href="https://docs.google.com/document/d/1Xkci0hA98UrtymjMoVoA1M5H1dRsxnQ0aHoMEtcKdek/edit?usp=sharing" target="_blank"
+          className={styles.card}
+          >
+        
+              <p><title>Smart Vase IoT &rarr;</title><date><br /> Nov. 2021 - Dec. 2021</date></p>
+              
+              <br />•Created an IoT Device. Tracks a vase via smart monitoring to extend the shelf life of flowers
+              <br /><br />•Monitors water levels of vase, temperature, humidity, and light levels of environment.
+              <br /><br />•Data is stored in Firebase. Warnings are sent to user via Twitter to adjust the vase.  
           
+          </a>
+
+            <a href="hhttps://docs.google.com/document/d/1K9Kk7v5S7woE3pdP6iqIU7xLfaW-thwBnI_xWZO0x8k/edit" target="_blank"
+          className={styles.card}
+          >
+            <p> <title>Smart Pillow IoT &rarr;</title><date><br /> Sept. 2021 - June 2021</date></p>
+            <br />•Senior Design in Embedded Systems.
+            <br /><br />•Developing a Smart Pillow geared towards Health IoT &amp; Embedded Systems, specifically through the creation of a Smart Device. 
+            <br /><br />•Includes mechanical actuation, temperature heating &amp; cooling of the pillow, heart rate sensing, and snoring detection
+            <br /><br />•Help user make adjustments to their sleep in hopes of increasing sleep quality and helping eliminate issues such as sleep apnea &amp; snoring.
+            
+          </a>
+          
+
+            <a href="https://docs.google.com/document/d/1pYLFrX4qAp_fLJdlanWYrLAlOdWDGDz_FReZX_Z_H0Q/edit" target="_blank"
+          className={styles.card}
+          >
+            <p><title>Meet The Earth &rarr; </title><date><br /> July 2021 - Sept. 2021</date></p> 
+            <br />•iOS App Development. Implemented on XCode 11 with Swift 5.1
+            <br /><br />•Collaborate with and lead a team to develop an iOS App. Github is included in the technical report.
+            <br /><br />•Geared towards a user's health and fitness, specifically in powerlifting. 
+            <br /><br />• Utilizes CocoaPads and Firebase to implement Calendar Framework &amp; RealTime Database. 
+          </a>
+
+            <a href="https://docs.google.com/presentation/d/120sBDQv1Sr-K6onshXQiYKaA25wh7cVHcz5I15wKU9Q/edit#slide=id.p" target="_blank"
+          className={styles.card}
+          >
+            <p><title>Low Cost PCR on Microfluidic Device &rarr;</title><date><br />Sept 2018 - Sept. 2019</date></p>
+              <br />•Designed microfluidic chips to create a prototypical PCR chip and a functional environment to perform PCR
+              <br /><br />•Created the initial microfluidic device based on a sample PCR assay. 
+              <br /><br />•Participated in initial wet and dry testing to validate device integrity and heating and its ability to meet heating.            </a>
+
+            <a href="https://docs.google.com/document/d/155uo9RAQhZOzTAOQ9Ve1RDytzQzga8hz/edit?usp=sharing&amp;ouid=109920275224725165600&amp;rtpof=true&amp;sd=true" target="_blank"
+          className={styles.card}
+          >
+           <p><title>Smart Street Intersection &rarr;</title><date><br /> May 2019 - June 2019</date></p> 
+            <br />•Project in Embedded Systems
+            <br /><br />•Used an Atmega1284. Programmed with C to communicate between various Piezo and IR Sensors.
+            <br /><br />•Uses various sensors and LEDs to display who is in the intersection, helping to simulate a more efficient and energy saving infrastructure.
+            <br /><br />•Simulated and streamlined a traffic intersection complete with pedestrians and vehicles
+          </a>
+          
+          </div>
+
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://www.youtube.com/watch?v=xm3YgoEiEDc&ab_channel=10Hours"
+          href="https://www.youtube.com/watch?v=xm3YgoEiEDc&amp;ab_channel=10Hours" target="_blank"
         >
           Shoutout to Danial Beg and Rajbir Johar.
         </a>
