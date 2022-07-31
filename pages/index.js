@@ -182,7 +182,6 @@ export default function Home() {
           href="https://www.youtube.com/watch?v=xm3YgoEiEDc&ab_channel=10Hours"
         >
           Shoutout to Danial Beg and Rajbir Johar.
-         
         </a>
       </footer>
     </div>
