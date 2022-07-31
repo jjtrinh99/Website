@@ -24,7 +24,7 @@ export default function Home() {
        </p> 
        
        <p className={styles.description}>Nice seein' you out here. <span className={styles.logo}>
-            <Image src="/waving-hand.svg" width={72} height={40} />
+            <Image src="/waving-hand.svg" width={72} height={40} alt="emoji" />
           </span><br /><br /> Computer Engineer based in California, graduating in December 2022. 
           Looking into new-grad full-time roles in Software Development Engineering (SDE). 
           
@@ -32,7 +32,7 @@ export default function Home() {
 </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
-            <Image src="/phoneit.svg" width={72} height={40} /></span></h2>
+            <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
        <a>Feel free to reach out to me through any of the platforms directly below. </a> <br />
        <a 
        href="mailto: jontrinh99@gmail.com?" target="_blank"> Email &crarr;
