@@ -13,10 +13,6 @@
   align-items: left;
 }
 
-Image{
-  color-scheme: dark;
-}
-
 .footer {
   display: flex;
   flex: 0 1 auto;
