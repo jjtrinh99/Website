@@ -76,7 +76,7 @@ export default function Home() {
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
             </a>
 
-            <a  className={styles.card}>
+
             <div className="dropdown">
               <span>
               <p><title>IAW Lab Leader &#40;Instructor&#41;</title>
@@ -90,7 +90,7 @@ export default function Home() {
                 <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
               </div>
             </div>
-            </a>
+            
 
             <a  className={styles.card}>
               <p><title>IAW Reader &#40;Grader&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
