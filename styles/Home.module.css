@@ -109,7 +109,8 @@
 }
 .card:hover,
 .card:focus,
-.card:active{
+.card:active,
+.card: a{
   color: #070972c9;
   border-color: #070972c9;
 }

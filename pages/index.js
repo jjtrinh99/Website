@@ -98,10 +98,8 @@ export default function Home() {
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
-              <footer className={styles.footer}>
                 <br />
                 <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
-              </footer>           
               </a>
 
             </a>
