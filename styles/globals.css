@@ -20,20 +20,20 @@ date{
 h1{
   text-align: center;
   font-size: 2rem;
-  color: #061178;
+  color: rgb(30, 61, 34);
 }
 h2{
   text-align: center;
-  font-size: 2rem;
-  color: #061178;
+  font-size: 2rem; 
+  color: rgb(30, 61, 34);
 }
 * {
   box-sizing: border-box;
 }
 overallH{
   text-align: center;
-  font-size: 4rem;
-  color: #061178;
+  font-size: 4rem; 
+  color: rgb(30, 61, 34);
 }
 .id1 {
   text-align: center;
@@ -60,7 +60,7 @@ overallH{
   body {
     color: white;
 
-    background-color:  rgb(75, 73, 73);
+    color: rgb(30, 61, 34);
   }
   
 }
