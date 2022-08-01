@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React from "react";
+import { CardGroup, Card, CardBody, CardImg, CardTitle, CardText } from "reactstrap";
 
 
 export default function Home() {
@@ -66,8 +67,9 @@ export default function Home() {
           >
             <h2>Work Experience</h2>
 
-          <a>
+          <a><CardGroup>
 
+            <Card>
             <a  className={styles.card}>
               <p><title>Project Management Intern</title><a>Lumen Technologies </a><br /> <date>June 2022 - Current</date></p>
               <br />
@@ -77,7 +79,9 @@ export default function Home() {
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
               
             </a>
+            </Card>
 
+            <Card>
             <a  className={styles.card}>
        
               <span>
@@ -85,29 +89,42 @@ export default function Home() {
                 <a>Academic Resource Center; <br /> University of California&#44; Riverside
                 <date><br />May 2020 - June 2021</date></a></p>
                 </span>
+
+                <CardText>
                 <br />
                 &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
                 <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
                 <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
+                </CardText>
             </a>
+            </Card>
 
+            <Card>
             <a  className={styles.card}>
               <p><title>IAW Reader &#40;Grader&#41;</title><br /><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
+              <CardText>
               <br />
               &#8226;  Evaluated and recorded performance of students and assist instructors in grading upwards of 600+ exams&#46;
               <br /><br />&#8226;  Maintained records documenting student performance in IAW assessment&#46;
               <br /><br />&#8226;  Followed guidelines set forth by Math dept&#46; &amp; IAW coordinators&#46;
+              </CardText>
             </a>
+            </Card>
 
+            <Card>
             <a  className={styles.card}>
               <p><title>Research Assistant &#40;Embedded Systems&#41;</title><a> University of California&#44; Riverside; <br /><date>Sept&#46; 2018 - Sept&#46; 2019</date></a><br /></p>
+              <CardText>
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
                 <br /><br />
                 <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
+                </CardText>
               </a>
+              </Card>
 
+              </CardGroup>
             </a>
 
           </div>
