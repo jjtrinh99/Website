@@ -21,7 +21,6 @@ h1{
   text-align: center;
   font-size: 2rem;
   color: white;
-
 }
 h2{
   text-align: center;
@@ -55,6 +54,11 @@ overallH{
 .id4 {
   border: 0px solid white;
 }
+
+pics{
+  color:rgb(255, 255, 255);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -79,3 +83,4 @@ overallH{
   
 
 }
+
