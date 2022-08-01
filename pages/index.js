@@ -66,14 +66,6 @@ export default function Home() {
           >
             <h2>Work Experience</h2>
 
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <a>Study the workflow</a>
-            <a>Study more workflow</a>
-          </div>
-
-          
-
           <a>
 
             <a  className={styles.card}>
