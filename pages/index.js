@@ -48,9 +48,9 @@ export default function Home() {
           </div>
           <div className="id2">
             University of California&#44; Irvine <br />
-            Master of Science	&#59; Computer Engineering <br /><br />
+            Master of Science&#59; Computer Engineering <br /><br />
             University of California&#44; Riverside<br />
-            Bachelor of Science	&#59; Electrical Engineering 
+            Bachelor of Science&#59; Electrical Engineering 
             <div className="id3"></div>
             <div className="id4">
               June 2022 - Dec&#46; 2022 <br />
@@ -98,7 +98,7 @@ export default function Home() {
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
-              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr;; Presentation can be found under Projects&#46;</a>
+              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
             </a>
 
             </a>
@@ -176,9 +176,9 @@ export default function Home() {
             <a href="hhttps://docs.google.com/document/d/1K9Kk7v5S7woE3pdP6iqIU7xLfaW-thwBnI_xWZO0x8k/edit" target="_blank" rel="noreferrer" className={styles.card}>
             <p> <title>Smart Pillow IoT &rarr;</title><date><br /> Sept&#46; 2021 - June 2021</date></p>
             <br />&#8226; Senior Design in Embedded Systems&#46;
-            <br /><br />&#8226; Developing a Smart Pillow geared towards Health IoT &amp; Embedded Systems&#44; specifically through the creation of a Smart Device&#46; 
+            <br /><br />&#8226; Developed a Smart Pillow geared towards Health IoT &amp; Embedded Systems&#44; specifically through the creation of a Smart Device&#46; 
             <br /><br />&#8226; Includes mechanical actuation&#44; temperature heating &amp; cooling of the pillow&#44; heart rate sensing&#44; and snoring detection&#46;
-            <br /><br />&#8226; Help user make adjustments to their sleep in hopes of increasing sleep quality and helping eliminate issues such as sleep apnea &amp; snoring&#46;
+            <br /><br />&#8226; Helps user make adjustments to their sleep in hopes of increasing sleep quality and helping eliminate issues such as sleep apnea &amp; snoring&#46;
           
           </a>
           
@@ -186,7 +186,7 @@ export default function Home() {
             <a href="https://docs.google.com/document/d/1pYLFrX4qAp_fLJdlanWYrLAlOdWDGDz_FReZX_Z_H0Q/edit" target="_blank" rel="noreferrer" className={styles.card}>
             <p><title>Meet The Earth &rarr; </title><date><br /> July 2021 - Sept&#46; 2021</date></p> 
             <br />&#8226;iOS App Development. Implemented on XCode 11 with Swift 5&#46;1
-            <br /><br />&#8226; Collaborate with and lead a team to develop an iOS App&#46; Github is included in the technical report&#46;
+            <br /><br />&#8226; Collaborated with and led a team to develop an iOS App&#46; Github is included in the technical report&#46;
             <br /><br />&#8226; Geared towards a user&#39;s health and fitness&#44; specifically in powerlifting&#46;
             <br /><br />&#8226; Utilizes CocoaPads and Firebase to implement Calendar Framework &amp; RealTime Database&#46;
           </a>
@@ -195,14 +195,14 @@ export default function Home() {
             <p><title>Low Cost PCR on Microfluidic Device &rarr;</title><date><br />Sept 2018 - Sept&#46; 2019</date></p>
               <br />&#8226;Designed microfluidic chips to create a prototypical PCR chip and a functional environment to perform PCR
               <br /><br />&#8226;  Created the initial microfluidic device based on a sample PCR assay&#46;
-              <br /><br />&#8226;  Participated in initial wet and dry testing to validate device integrity and heating and its ability to meet heating&#46;;
+              <br /><br />&#8226;  Participated in initial wet and dry testing to validate device integrity and heating and its ability to meet heating&#46;
           </a>
 
             <a href="https://docs.google.com/document/d/155uo9RAQhZOzTAOQ9Ve1RDytzQzga8hz/edit?usp=sharing&amp;ouid=109920275224725165600&amp;rtpof=true&amp;sd=true" target="_blank" rel="noreferrer" className={styles.card}>
            <p><title>Smart Street Intersection &rarr;</title><date><br /> May 2019 - June 2019</date></p> 
             <br />&#8226;  Project in Embedded Systems
             <br /><br />&#8226;  Used an Atmega1284&#46; Programmed with C to communicate between various Piezo and IR Sensors&#46;
-            <br /><br />&#8226;  Uses various sensors and LEDs to display who is in the intersection&#44; helping to simulate a more efficient and energy saving infrastructure&#46;
+            <br /><br />&#8226;  Used various sensors and LEDs to display who is in the intersection&#44; helping to simulate a more efficient and energy saving infrastructure&#46;
             <br /><br />&#8226; Simulated and streamlined a traffic intersection complete with pedestrians and vehicles&#46;
           </a>
           
@@ -213,7 +213,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="https://www.youtube.com/watch?v=xm3YgoEiEDc&amp;ab_channel=10Hours" target="_blank" rel="noreferrer">
-          Shoutouts&#46;
+          Shoutouts through this link&#46; &crarr;
         </a>
       </footer>
     </div>
