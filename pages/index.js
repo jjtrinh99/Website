@@ -120,7 +120,7 @@ export default function Home() {
                   <br />
                   &#8226; Led a committee consisting of team leads and subcommittees&#44; inclusive of Sponsorship&#44; Web Development&#44; Operations&#44; &amp; Marketing&#46;
                   <br /><br />&#8226; Streamlined and centralized workflow towards an impactful hackathon through documentation&#44; inclusivity&#44; engagement&#44; and collaboration&#46;
-                  <br /><br />&#8226; Organized UCR&#39;s and the Inland Empire&#39;s biggest hackathon&#44; Citrus Hack&#44; capped at 500 hackers &#40;900 applicants&#41;&#44; and our sister hackathon&#44; Cutie Hack&#44; which had 450 hackers&#46;
+                  <br /><br />&#8226; Organized Citrus Hack&#44; capped at 500 hackers &#40;900 applicants&#41; and our sister hackathon&#44; Cutie Hack&#44; which had 450 hackers&#46;
                 </a>
 
                 <a  className={styles.card}>
@@ -144,7 +144,6 @@ export default function Home() {
                   &#8226;  Took and uploaded pictures for events and meetings hosted
                   <br /><br />&#8226; Worked with outreach chair &amp; promote events through social media /w pictures and advertisement
                   <br /><br />&#8226; Worked with Webmaster to upload pictures and content for website&#44; events&#44; etc&#46;
-                  <br /><br />&#8226; Side note: Sparked my hobby of Photography&#46;
                 </a>
 
               </a>
