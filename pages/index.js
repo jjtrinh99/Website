@@ -78,11 +78,11 @@ export default function Home() {
 
             <a  className={styles.card}>
             <div class="dropdown"><p><title>IAW Lab Leader &#40;Instructor&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2020 - June 2021</date></a></p>
-            <div class="dropdown-content">
-              <br />
-              &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
-              <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
-              <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
+              <div class="dropdown-content">
+                <br />
+                &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
+                <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
+                <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
               </div>
             </div>
             </a>
