@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="id1">
             <h2>Education <span className={styles.logo}>
-            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h2>
+            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h>
           </div>
           <div className="id2">
             University of California&#44; Irvine <br />
@@ -100,8 +100,8 @@ export default function Home() {
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
               <footer className={styles.footer}>
                 <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
-              </footer>
-            </a>
+              </footer>           
+              </a>
 
             </a>
 
@@ -122,7 +122,7 @@ export default function Home() {
 
                 <a  className={styles.card}>
                   <p><title>Sponsorship Lead</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2019 - May 2020</date></a><br /></p>
-                  <br /><footer className={styles.footer}>
+                  <br />
                   &#8226; Raised upwards of $20&#44;000 to fund Citrus Hack&#44; a 36-hour hackathon&#44; along with Cutie Hack&#44; a 12-hour sister hackathon&#46;
                   <br /><br />&#8226;  Sponsors included GCP&#44; Sketch&#44; &amp; WolframAlpha&#46;
                 </a>
