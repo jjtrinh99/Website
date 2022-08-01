@@ -13,10 +13,10 @@
   align-items: left;
 }
 
-svg{
+/*svg{
   background-color: inherit;
   color: default;
-}
+}*/
 
 .footer {
   display: flex;
