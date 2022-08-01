@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </div>
       
-         
+        
             <h2>Work Experience</h2>
 
           <a>
