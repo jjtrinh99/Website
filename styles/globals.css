@@ -62,13 +62,14 @@ overallH{
   color: white;
   background-color: inherit;
 }
-.dropdown-content {
+
+/*.dropdown-content {
   display: none;
   position: absolute;
   min-width: 160px;
   background-color: inherit;
-  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  /*padding: 12px 16px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
   z-index: 7;
   color: #070972c9;
 }
@@ -83,7 +84,7 @@ overallH{
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+}*/
 
 @media (prefers-color-scheme: dark) {
   html {

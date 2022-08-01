@@ -80,7 +80,8 @@
 }
 
 .card {
-  display:inline-table;
+  display:flex;
+  justify-content: center;
   width: 30%;
   /*margin: 1.2rem;*/
   padding: 1.2rem;
