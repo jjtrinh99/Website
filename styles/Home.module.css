@@ -139,7 +139,7 @@
     flex-direction: column;
   }
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   .card {
     border-color: #444;
@@ -156,4 +156,4 @@
     filter: invert(1);
   }
 
-}
+}*/
