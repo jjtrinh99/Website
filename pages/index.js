@@ -20,7 +20,7 @@ export default function Home() {
         </overallH>
 
   
-           <br /><p className={styles.code}><div>Master&#39;s student studying Computer Engineering &#64;UCI </div>
+           <br /><p className={styles.code}><div>Master&#39;s student studying Computer Engineering &#64; UCI </div>
        </p> 
        
        <p className={styles.description}><div>Nice seein&#39; you out here&#46;<span className={styles.logo}>
