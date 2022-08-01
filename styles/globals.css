@@ -20,7 +20,8 @@ date{
 h1{
   text-align: center;
   font-size: 2rem;
-  color: rgb(50, 100, 56);
+  color: white;
+
 }
 h2{
   text-align: center;
@@ -60,7 +61,7 @@ overallH{
   body {
     color: white;
     color-scheme: dark;
-    color: rgb(50, 100, 56);
+    color: rgb(255, 255, 255);
   }
   
 
@@ -72,7 +73,7 @@ overallH{
   body {
     color: white;
     color-scheme: dark;
-    color: rgb(50, 100, 56);
+    color: rgb(255, 255, 255);
   }
   
 
