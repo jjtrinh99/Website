@@ -124,7 +124,10 @@
   font-size: 1.15rem;
   line-height: 1.5;
 }
-
+.card content{
+  display: block;
+  text-transform: inherit;
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;

@@ -71,9 +71,11 @@ export default function Home() {
             <a  className={styles.card}>
               <p><title>Project Management Intern</title><a>Lumen Technologies </a><br /> <date>June 2022 - Current</date></p>
               <br />
+              <content>
               &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
               <br /><br />&#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
+              </content>
             </a>
 
             <a  className={styles.card}>
