@@ -92,7 +92,7 @@ export default function Home() {
             </a>
 
             <a  className={styles.card}>
-              <p><title>IAW Reader &#40;Grader&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
+              <p><title>IAW Reader &#40;Grader&#41;</title><br /><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
               <br />
               &#8226;  Evaluated and recorded performance of students and assist instructors in grading upwards of 600+ exams&#46;
               <br /><br />&#8226;  Maintained records documenting student performance in IAW assessment&#46;
