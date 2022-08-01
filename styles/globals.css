@@ -72,7 +72,8 @@ overallH{
   z-index: 1;
   color: #070972c9;
 }
-.dropdown:hover .dropdown-content {
+.dropdown-content,
+.dropdown:active {
   display: block;
   background-color: inherit;
 }
