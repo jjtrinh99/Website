@@ -94,7 +94,6 @@ export default function Home() {
 
             <a  className={styles.card}>
               <p><title>Research Assistant &#40;Embedded Systems&#41;</title><a> University of California&#44; Riverside; <br /><date>Sept&#46; 2018 - Sept&#46; 2019</date></a><br /></p>
-              <br />
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
