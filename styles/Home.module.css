@@ -81,9 +81,9 @@
 
 .card {
   display:inline-table;
-  width: 40%;
+  width: 30%;
   margin: 1.2rem;
-  padding: 1.5rem;
+  padding: 1.2rem;
   text-align: left;
   color: white;
   text-decoration: none;
@@ -92,7 +92,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
  min-height: 510px;
  max-height: 600px;
-  max-width: 300px;
+  max-width: 350px;
   
   background-color:  rgb(75, 73, 73);
 
