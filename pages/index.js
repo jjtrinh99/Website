@@ -32,7 +32,7 @@ export default function Home() {
 </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
-            <Image src="/phoneit.svg" width={72} height={40} alt="emoji" /></span></h2>
+            <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
        <a>Feel free to reach out to me through any of the platforms directly below&#46; </a> <br />
        <a 
        href="mailto: jontrinh99@gmail.com?" target="_blank" rel="noreferrer"> Email &crarr;
@@ -77,11 +77,14 @@ export default function Home() {
             </a>
 
             <a  className={styles.card}>
-              <p><title>IAW Lab Leader &#40;Instructor&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2020 - June 2021</date></a></p>
+            <div class="dropdown"><p><title>IAW Lab Leader &#40;Instructor&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2020 - June 2021</date></a></p>
+            <div class="dropdown-content">
               <br />
               &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
               <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
               <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
+              </div>
+            </div>
             </a>
 
             <a  className={styles.card}>
