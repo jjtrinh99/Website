@@ -7,13 +7,13 @@ body {
 }
 
 a {
-  color: #0f08567e;
+  color: white;
   text-decoration: none;
   text-align: center;
   font-size: 0.95rem;
 }
 date{
-  color: #0f08567e;
+  color: white;
   text-align: center;
   font-size: 0.7rem;
 }
@@ -25,7 +25,7 @@ h1{
 h2{
   text-align: center;
   font-size: 2rem; 
-  color: rgb(50, 100, 56);
+  color: white;
 }
 * {
   box-sizing: border-box;
@@ -33,7 +33,7 @@ h2{
 overallH{
   text-align: center;
   font-size: 4rem; 
-  color: rgb(50, 100, 56);
+  color: white;
 }
 .id1 {
   text-align: center;

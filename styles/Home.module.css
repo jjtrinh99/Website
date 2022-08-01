@@ -48,7 +48,7 @@
   font-size: 2rem;
 }
 
-.title,
+.title
 .description {
   text-align: center;
 }
@@ -85,7 +85,7 @@
   margin: 1.2rem;
   padding: 1.5rem;
   text-align: left;
-  color: #0f08567e;
+  color: white;
   text-decoration: none;
   border: 3px solid #091f55;
   border-radius: 25px;
@@ -104,7 +104,7 @@
   display: inline-grid;
 
   text-align: left;
-  color: rgb(50, 100, 56);;
+  color: white;
   background-color:  rgb(75, 73, 73);
 }
 .card:hover,
