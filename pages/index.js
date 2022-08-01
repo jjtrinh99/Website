@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="id1">
             <h2>Education <span className={styles.logo}>
-            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h>
+            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h2>
           </div>
           <div className="id2">
             University of California&#44; Irvine <br />
