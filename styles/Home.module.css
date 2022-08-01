@@ -112,7 +112,6 @@
 .card:active{
   color: #070972c9;
   border-color: #070972c9;
-  display: -ms-inline-grid;
 }
 
 .card h2 {
@@ -124,10 +123,6 @@
   margin: 0;
   font-size: 1.15rem;
   line-height: 1.5;
-}
-.card content{
-  display: block;
-  text-transform: inherit;
 }
 .logo {
   height: 1em;
