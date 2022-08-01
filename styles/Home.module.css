@@ -30,8 +30,8 @@
 }
 
 .title a {
-  color: #f7f7f7;
-  background-color:  rgb(110, 108, 108);
+  color: #061178;
+  background-color:  rgb(75, 73, 73);
   text-decoration: italic;
   text-decoration: bold;
 }
@@ -62,7 +62,8 @@
 
 .code {
   text-align: center;
-  background: #fafafa3d;
+  
+  background-color:  rgb(75, 73, 73);
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -92,7 +93,8 @@
  min-height: 510px;
  max-height: 600px;
   max-width: 300px;
-  background: rgb(110, 108, 108);
+  
+  background-color:  rgb(75, 73, 73);
 
 }
 .card title{
@@ -103,8 +105,8 @@
 
   text-align: left;
   color: inherit;
- 
-  background: rgb(110, 108, 108);
+  
+  background-color:  rgb(75, 73, 73);
 }
 .card:hover,
 .card:focus,
@@ -145,7 +147,8 @@
     font-size: 0.6rem;
   }
   .code {
-    background: #444;
+    
+  background-color:  rgb(75, 73, 73);
   }
   .logo img {
     filter: invert(1);
