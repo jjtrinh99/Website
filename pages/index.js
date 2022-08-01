@@ -67,36 +67,28 @@ export default function Home() {
 
           <a>
 
-            
             <a  className={styles.card}>
               <p><title>Project Management Intern</title><a>Lumen Technologies </a><br /> <date>June 2022 - Current</date></p>
-              <br />
-            
+              <br />  
               &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
               <br /><br />&#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
-              
             </a>
             
 
             
             <a  className={styles.card}>
-       
               <span>
               <p><title>IAW Lab Leader &#40;Instructor&#41;</title>
                 <a>Academic Resource Center; <br /> University of California&#44; Riverside
                 <date><br />May 2020 - June 2021</date></a></p>
                 </span>
-
-                
+    
                 <br />
                 &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
                 <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
-                <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
-                
+                <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;   
             </a>
-            
-
             
             <a  className={styles.card}>
               <p><title>IAW Reader &#40;Grader&#41;</title><br /><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
@@ -120,8 +112,6 @@ export default function Home() {
                 <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
                 
               </a>
-              
-
               
             </a>
 
