@@ -66,6 +66,14 @@ export default function Home() {
           >
             <h2>Work Experience</h2>
 
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <a>Study the workflow</a>
+            <a>Study more workflow</a>
+          </div>
+
+          
+
           <a>
 
             <a  className={styles.card}>
@@ -76,21 +84,18 @@ export default function Home() {
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
             </a>
 
-
-            <div className="dropdown">
+            <a  className={styles.card}>
+       
               <span>
               <p><title>IAW Lab Leader &#40;Instructor&#41;</title>
                 <a>Academic Resource Center; <br /> University of California&#44; Riverside
                 <date><br />May 2020 - June 2021</date></a></p>
                 </span>
-              <div className="dropdown-content">
                 <br />
                 &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
                 <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
                 <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
-              </div>
-            </div>
-            
+            </a>
 
             <a  className={styles.card}>
               <p><title>IAW Reader &#40;Grader&#41;</title><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
