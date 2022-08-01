@@ -214,7 +214,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="https://www.youtube.com/watch?v=xm3YgoEiEDc&amp;ab_channel=10Hours" target="_blank" rel="noreferrer">
-          Shoutout to Danial Beg and Rajbir Johar&#46;
+          Shoutouts&#46;
         </a>
       </footer>
     </div>
