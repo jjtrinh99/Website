@@ -69,10 +69,10 @@ overallH{
   padding: 12px 16px;
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
