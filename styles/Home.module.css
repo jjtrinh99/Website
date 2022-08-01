@@ -13,10 +13,9 @@
   align-items: left;
 }
 
-/*svg{
-  background-color: inherit;
-  color: default;
-}*/
+svg{
+  color-scheme: dark;
+}
 
 .footer {
   display: flex;
