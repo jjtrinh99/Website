@@ -23,10 +23,10 @@ export default function Home() {
            <br /><p className={styles.code}><div>Master&#39;s student studying Computer Engineering &#64;UCI </div>
        </p> 
        
-       <p className={styles.description}><div>Nice seein&#39;you out here&#46;<span className={styles.logo}>
+       <p className={styles.description}><div>Nice seein&#39; you out here&#46;<span className={styles.logo}>
             <Image src="/waving-hand.svg" width={72} height={40} alt="emoji" /></span></div> 
-            <br /><br /> <a>Computer Engineer based in California&#44; graduating in December 2022&#46;
-          Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</a>
+            <br /><br /> <div>Computer Engineer based in California&#44; graduating in December 2022&#46;
+          Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</div>
           
         <br /><br /><div>Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
 </p> 
