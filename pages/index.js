@@ -2,12 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React from "react";
-import { CardGroup, Card, CardBody, CardImg, CardTitle, CardText } from "reactstrap";
-
 
 export default function Home() {
   return (
-    <div className={styles.container}
+    <div className={styles.block}
     >
       <Head>
         <title>Trinh&#39;s Site</title>
@@ -16,21 +14,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <overallH className={styles.title}>
-           <overallH>Jonathan Trinh</overallH>
-        </overallH>
+        <overallh className={styles.title}>
+           <overallh>Jonathan Trinh</overallh>
+        </overallh>
 
   
            <br /><p className={styles.code}><div>Master&#39;s student studying Computer Engineering &#64; UCI </div>
-       </p> 
-       
+      </p> 
+     
        <p className={styles.description}><div>Nice seein&#39; you out here&#46;<span className={styles.logo}>
             <Image src="/waving-hand.svg" width={72} height={40} alt="emoji"/> </span></div> 
             <br /><br /> <div>Computer Engineer based in California&#44; graduating in December 2022&#46;
           Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</div>
           
         <br /><br /><div>Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
-</p> 
+      </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
             <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
@@ -41,8 +39,7 @@ export default function Home() {
        <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer"> LinkedIn &crarr;</a>
        <a href="https://github.com/jjtrinh99 " target="_blank" rel="noreferrer"> Github &crarr;</a>
        <a href="https://www.instagram.com/infinitrinh/" target="_blank" rel="noreferrer"> Photography Instagram &crarr;</a>
-  
-
+ 
           <div className="id1">
             <h2>Education <span className={styles.logo}>
             <Image src="/bookstuff.svg" width={72} height={40}/></span> </h2>
@@ -78,11 +75,11 @@ export default function Home() {
 
             
             <a  className={styles.card}>
-              <span>
+              
               <p><title>IAW Lab Leader &#40;Instructor&#41;</title>
                 <a>Academic Resource Center; <br /> University of California&#44; Riverside
                 <date><br />May 2020 - June 2021</date></a></p>
-                </span>
+                
     
                 <br />
                 &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
@@ -165,13 +162,13 @@ export default function Home() {
         
           <a>
 
-            <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer" className={styles.card}>
+            <a href="https://jonathantrinh.vercel.app/" target="_blank" rel="noreferrer" className={styles.card}>
               <p><title>Personal Site &rarr; </title><date><br />Aug. 2022 - Current</date></p>
               <br />&#8226; Making my personal site&#46; Working on adding features to make the site look better&#33;
               <br /><br /> &#8226; Built with React&#44; NextJS&#44; and deployed through Vercel&#46;
               <br /><br /> &#8226; Special shoutout to Rajbir Johar&#44; Danial Beg&#44; and Suhas Jagannath&#46;
             </a>
-          
+         
           </a>
 
             <a href="https://docs.google.com/document/d/1Xkci0hA98UrtymjMoVoA1M5H1dRsxnQ0aHoMEtcKdek/edit?usp=sharing" target="_blank" rel="noreferrer" className={styles.card}>

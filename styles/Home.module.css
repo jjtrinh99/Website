@@ -80,12 +80,10 @@
 }
 
 .card {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  /*margin: 1.2rem;*/
+  display: inline-table;
+  margin: 1.2rem;
   padding: 1.2rem;
-  text-align: center;
+  text-align: left;
   color: white;
   text-decoration: none;
   border: 3px solid #091f55;
@@ -139,7 +137,7 @@
     flex-direction: column;
   }
 }
-/*
+
 @media (prefers-color-scheme: dark) {
   .card {
     border-color: #444;
@@ -156,4 +154,4 @@
     filter: invert(1);
   }
 
-}*/
+}
