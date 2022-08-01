@@ -62,9 +62,7 @@ export default function Home() {
             </div>
           </div>
       
-          <div
-            className={styles.card}
-          >
+         
             <h2>Work Experience</h2>
 
           <a><CardGroup>
@@ -127,7 +125,7 @@ export default function Home() {
               </CardGroup>
             </a>
 
-          </div>
+        
 
           <div className={styles.block } 
           >
