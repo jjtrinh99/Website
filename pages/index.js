@@ -98,7 +98,9 @@ export default function Home() {
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
               <br /><br />&#8226;  Fabricated various schematics to test various cycling techniques to perform PCR&#46;
-              <br /><br /><a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
+              <footer className={styles.footer}>
+                <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
+              </footer>
             </a>
 
             </a>
@@ -120,7 +122,7 @@ export default function Home() {
 
                 <a  className={styles.card}>
                   <p><title>Sponsorship Lead</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2019 - May 2020</date></a><br /></p>
-                  <br />
+                  <br /><footer className={styles.footer}>
                   &#8226; Raised upwards of $20&#44;000 to fund Citrus Hack&#44; a 36-hour hackathon&#44; along with Cutie Hack&#44; a 12-hour sister hackathon&#46;
                   <br /><br />&#8226;  Sponsors included GCP&#44; Sketch&#44; &amp; WolframAlpha&#46;
                 </a>
