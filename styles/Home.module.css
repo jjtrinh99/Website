@@ -112,6 +112,7 @@
 .card:active{
   color: #070972c9;
   border-color: #070972c9;
+  display: -ms-inline-grid;
 }
 
 .card h2 {
