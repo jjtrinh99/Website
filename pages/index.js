@@ -24,7 +24,7 @@ export default function Home() {
        </p> 
        
        <p className={styles.description}><div>Nice seein&#39; you out here&#46;<span className={styles.logo}>
-            <svg src="/waving-hand.svg" width={72} height={40} alt="emoji" /></span></div> 
+            <Image src="/waving-hand.svg" width={72} height={40} alt="emoji" /></span></div> 
             <br /><br /> <div>Computer Engineer based in California&#44; graduating in December 2022&#46;
           Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</div>
           
@@ -32,7 +32,7 @@ export default function Home() {
 </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
-            <svg src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
+            <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
        <a>Feel free to reach out to me through any of the platforms directly below&#46; </a> <br />
        <a 
        href="mailto: jontrinh99@gmail.com?" target="_blank" rel="noreferrer"> Email &crarr;
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="id1">
             <h2>Education <span className={styles.logo}>
-            <svg src="/bookstuff.svg" width={72} height={40} /></span> </h2>
+            <Image src="/bookstuff.svg" width={72} height={40} /></span> </h2>
           </div>
           <div className="id2">
             University of California&#44; Irvine <br />
