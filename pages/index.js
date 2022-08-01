@@ -136,7 +136,7 @@ export default function Home() {
                 <a  className={styles.card}>
                   <p><title>Historian</title><br /><a> Materials Research Society &#40;MRS&#41;<br /><date>Sept&#46; 2018 - June 2019</date></a><br /></p>
                   <br />
-                  &#8226;  Take and upload pictures for events and meetings hosted
+                  &#8226;  Took and uploaded pictures for events and meetings hosted
                   <br /><br />&#8226; Worked with outreach chair &amp; promote events through social media /w pictures and advertisement
                   <br /><br />&#8226; Worked with Webmaster to upload pictures and content for website&#44; events&#44; etc&#46;
                   <br /><br />&#8226; Side note: Sparked my hobby of Photography&#46;
@@ -156,7 +156,6 @@ export default function Home() {
 
             <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer" className={styles.card}>
               <p><title>Personal Site &rarr; </title><date><br />Aug. 2022 - Current</date></p>
-              <br />
               <br />&#8226; Making my personal site&#46; Working on adding features to make the site look better&#33;
               <br /><br /> &#8226; Built with React&#44; NextJS&#44; and deployed through Vercel&#46;
               <br /><br /> &#8226; Special shoutout to Rajbir Johar&#44; Danial Beg&#44; and Suhas Jagannath&#46;
