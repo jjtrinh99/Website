@@ -7,13 +7,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0f08567e;
   text-decoration: none;
   text-align: center;
   font-size: 0.95rem;
 }
 date{
-  color: inherit;
+  color: #0f08567e;
   text-align: center;
   font-size: 0.7rem;
 }
