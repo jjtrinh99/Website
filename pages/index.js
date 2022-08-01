@@ -182,15 +182,15 @@ export default function Home() {
             <br />&#8226; Senior Design in Embedded Systems&#46;
             <br /><br />&#8226; Developed a Smart Pillow geared towards Health IoT &amp; Embedded Systems&#44; specifically through the creation of a Smart Device&#46; 
             <br /><br />&#8226; Includes mechanical actuation&#44; temperature heating &amp; cooling of the pillow&#44; heart rate sensing&#44; and snoring detection&#46;
-            <br /><br />&#8226; Helps user make adjustments to their sleep in hopes of increasing sleep quality and helping eliminate issues such as sleep apnea &amp; snoring&#46;
+            <br /><br />&#8226; Helps user make adjustments to their sleep quality &amp; eliminate issues such as sleep apnea &amp; snoring&#46;
           
           </a>
           
 
             <a href="https://docs.google.com/document/d/1pYLFrX4qAp_fLJdlanWYrLAlOdWDGDz_FReZX_Z_H0Q/edit" target="_blank" rel="noreferrer" className={styles.card}>
             <p><title>Meet The Earth &rarr; </title><date><br /> July 2021 - Sept&#46; 2021</date></p> 
-            <br />&#8226;iOS App Development. Implemented on XCode 11 with Swift 5&#46;1
-            <br /><br />&#8226; Collaborated with and led a team to develop an iOS App&#46; Github is included in the technical report&#46;
+            <br />&#8226; iOS App Development. Implemented on XCode 11 with Swift 5&#46;1
+            <br /><br />&#8226; Collaborated with and led a team to develop an iOS App&#46; Github included in the technical report&#46;
             <br /><br />&#8226; Geared towards a user&#39;s health and fitness&#44; specifically in powerlifting&#46;
             <br /><br />&#8226; Utilizes CocoaPads and Firebase to implement Calendar Framework &amp; RealTime Database&#46;
           </a>
@@ -199,15 +199,15 @@ export default function Home() {
             <p><title>Low Cost PCR on Microfluidic Device &rarr;</title><date><br />Sept 2018 - Sept&#46; 2019</date></p>
               <br />&#8226;Designed microfluidic chips to create a prototypical PCR chip and a functional environment to perform PCR
               <br /><br />&#8226;  Created the initial microfluidic device based on a sample PCR assay&#46;
-              <br /><br />&#8226;  Participated in initial wet and dry testing to validate device integrity and heating and its ability to meet heating&#46;
+              <br /><br />&#8226;  Participated in initial wet and dry testing to validate device integrity and heating ability&#46;
           </a>
 
             <a href="https://docs.google.com/document/d/155uo9RAQhZOzTAOQ9Ve1RDytzQzga8hz/edit?usp=sharing&amp;ouid=109920275224725165600&amp;rtpof=true&amp;sd=true" target="_blank" rel="noreferrer" className={styles.card}>
            <p><title>Smart Street Intersection &rarr;</title><date><br /> May 2019 - June 2019</date></p> 
             <br />&#8226;  Project in Embedded Systems
             <br /><br />&#8226;  Used an Atmega1284&#46; Programmed with C to communicate between various Piezo and IR Sensors&#46;
-            <br /><br />&#8226;  Used various sensors and LEDs to display who is in the intersection&#44; helping to simulate a more efficient and energy saving infrastructure&#46;
-            <br /><br />&#8226; Simulated and streamlined a traffic intersection complete with pedestrians and vehicles&#46;
+            <br /><br />&#8226;  Used various sensors and LEDs to display who is in the intersection&#44; helping to simulate a more efficient &amp; energy saving infrastructure&#46;
+            <br /><br />&#8226; Simulated &amp; streamlined a traffic intersection complete with pedestrians and vehicles&#46;
           </a>
           
           </div>
