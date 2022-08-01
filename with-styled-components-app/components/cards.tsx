@@ -18,6 +18,9 @@ const Card = styled.div`
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover,
   :focus,
