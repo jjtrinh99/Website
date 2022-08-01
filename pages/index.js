@@ -63,7 +63,7 @@ export default function Home() {
           </div>
       
           <div
-            className={styles.block}
+            className={styles.card}
           >
             <h2>Work Experience</h2>
 
