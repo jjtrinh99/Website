@@ -75,7 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   max-width: 800px;
 }
 
@@ -137,7 +137,7 @@
     flex-direction: column;
   }
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   .card {
     border-color: #444;
@@ -154,4 +154,4 @@
     filter: invert(1);
   }
 
-}
+}*/
