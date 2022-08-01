@@ -23,16 +23,16 @@ export default function Home() {
       </p> 
      
        <p className={styles.description}><div>Nice seein&#39; you out here&#46;<span className={styles.logo}>
-            <Image src="/waving-hand.svg" width={72} height={40} alt="emoji"/> </span></div> 
-            <br /><br /> <div>Computer Engineer based in California&#44; graduating in December 2022&#46;
+            <Image src="/waving-hand.png" width={72} height={40} alt="emoji"/> </span></div> 
+            <br /> <div>Computer Engineer based in California&#44; graduating in December 2022&#46;
           Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</div>
           
-        <br /><br /><div>Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
+        <br /><div>Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
       </p> 
       
        <br /><h2>Contact Info <span className={styles.logo}>
-            <Image src="/phoneit.svg" width={72} height={40} alt="emoji"/></span></h2>
-       <a>Feel free to reach out to me through any of the platforms directly below&#46; </a> <br />
+            <Image src="/phoneit.png" width={72} height={40} alt="emoji"/></span></h2>
+       <div>Feel free to reach out to me through any of the platforms directly below&#46; </div> <br />
        <a 
        href="mailto: jontrinh99@gmail.com?" target="_blank" rel="noreferrer"> Email &crarr;
        </a>
@@ -42,65 +42,58 @@ export default function Home() {
  
           <div className="id1">
             <h2>Education <span className={styles.logo}>
-            <Image src="/bookstuff.svg" width={72} height={40}/></span> </h2>
+            <Image src="/bookstuff.png" width={72} height={40}/></span> </h2>
           </div>
           <div className="id2">
-            University of California&#44; Irvine <br />
-            Master of Science&#59; Computer Engineering <br /><br />
-            University of California&#44; Riverside<br />
-            Bachelor of Science&#59; Electrical Engineering 
-            <div className="id3"></div>
-            <div className="id4">
-              June 2022 - Dec&#46; 2022 <br />
-              CGPA: 3&#46;62 <br /><br />
-              Sept&#46; 2017 - June 2021 <br />
-              CGPA: 3&#46;32
-              <br /> <br />
-            </div>
+              University of California&#44; Irvine <br />
+              Master of Science&#59; Computer Engineering <br /><br />
+              University of California&#44; Riverside<br />
+              Bachelor of Science&#59; Electrical Engineering 
+              <div className="id3"></div>
+              <div className="id4">
+                June 2022 - Dec&#46; 2022 <br />
+                CGPA: 3&#46;62 <br /><br />
+                Sept&#46; 2017 - June 2021 <br />
+                CGPA: 3&#46;32
+                <br /> <br />
+              </div>
           </div>
       
          
             <h2>Work Experience</h2>
 
-          <a>
+          <div>
 
-            <a  className={styles.card}>
-              <p><title>Project Management Intern</title><a>Lumen Technologies </a><br /> <date>June 2022 - Current</date></p>
+            <div  className={styles.card}>
+              <p><title>Project Management Intern</title><div>Lumen Technologies </div><br /> <date>June 2022 - Current</date></p>
               <br />  
               &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
               <br /><br />&#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
               <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
-            </a>
+            </div>          
             
-
-            
-            <a  className={styles.card}>
-              
+            <div  className={styles.card}>
               <p><title>IAW Lab Leader &#40;Instructor&#41;</title>
-                <a>Academic Resource Center; <br /> University of California&#44; Riverside
-                <date><br />May 2020 - June 2021</date></a></p>
-                
-    
+                <br /><div>Academic Resource Center; <br /> University of California&#44; Riverside
+                <date><br />May 2020 - June 2021</date></div></p>
                 <br />
                 &#8226;  Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
                 <br /><br />&#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
                 <br /><br />&#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;   
-            </a>
+            </div>
             
-            <a  className={styles.card}>
-              <p><title>IAW Reader &#40;Grader&#41;</title><br /><a>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></a></p>
+            <div  className={styles.card}>
+              <p><title>IAW Reader &#40;Grader&#41;</title><br /><div>Academic Resource Center; <br /> University of California&#44; Riverside<date><br />May 2019 - June 2021</date></div></p>
               
               <br />
               &#8226;  Evaluated and recorded performance of students and assist instructors in grading upwards of 600+ exams&#46;
               <br /><br />&#8226;  Maintained records documenting student performance in IAW assessment&#46;
               <br /><br />&#8226;  Followed guidelines set forth by Math dept&#46; &amp; IAW coordinators&#46;
               
-            </a>
+            </div>
             
-
-            
-            <a  className={styles.card}>
-              <p><title>Research Assistant &#40;Embedded Systems&#41;</title><a> University of California&#44; Riverside; <br /><date>Sept&#46; 2018 - Sept&#46; 2019</date></a><br /></p>
+            <div  className={styles.card}>
+              <p><title>Research Assistant &#40;Embedded Systems&#41;</title><div> University of California&#44; Riverside; <br /><date>Sept&#46; 2018 - Sept&#46; 2019</date></div><br /></p>
               
               <br />&#8226;  Department of CSE &#40;Embedded Systems Lab&#41;&#46; Worked under Dr&#46; Brian Crites &amp; Dr&#46; Philip Brisk&#46;
               <br /><br />&#8226;  Helped research in microfluidic fabrication and integration with electrical systems to aid in automation&#46;
@@ -108,49 +101,49 @@ export default function Home() {
                 <br /><br />
                 <a href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" rel="noreferrer"> Report here &crarr; Presentation can be found under Projects&#46;</a>
                 
-              </a>
+              </div>
               
-            </a>
+            </div>
 
         
 
           <div className={styles.block } 
           >
             <h2>Volunter Experience</h2>
-              <a>
+              <div>
 
-                <a  className={styles.card}>
-                  <p><title>Director</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2020 - June 2021</date></a><br /></p>
+                <div  className={styles.card}>
+                  <p><title>Director</title><br /><div> Cutie &amp; Citrus Hack <br /><date>May 2020 - June 2021</date></div><br /></p>
                   <br />
                   &#8226; Led a committee consisting of team leads and subcommittees&#44; inclusive of Sponsorship&#44; Web Development&#44; Operations&#44; &amp; Marketing&#46;
                   <br /><br />&#8226; Streamlined and centralized workflow towards an impactful hackathon through documentation&#44; inclusivity&#44; engagement&#44; and collaboration&#46;
                   <br /><br />&#8226; Organized Citrus Hack&#44; capped at 500 hackers &#40;900 applicants&#41; and our sister hackathon&#44; Cutie Hack&#44; which had 450 hackers&#46;
-                </a>
+                </div>
 
-                <a  className={styles.card}>
-                  <p><title>Sponsorship Lead</title><br /><a> Cutie &amp; Citrus Hack <br /><date>May 2019 - May 2020</date></a><br /></p>
+                <div  className={styles.card}>
+                  <p><title>Sponsorship Lead</title><br /><div> Cutie &amp; Citrus Hack <br /><date>May 2019 - May 2020</date></div><br /></p>
                   <br />
                   &#8226; Raised upwards of $20&#44;000 to fund Citrus Hack&#44; a 36-hour hackathon&#44; along with Cutie Hack&#44; a 12-hour sister hackathon&#46;
                   <br /><br />&#8226;  Sponsors included GCP&#44; Sketch&#44; &amp; WolframAlpha&#46;
-                </a>
+                </div>
 
-                <a  className={styles.card}>
-                  <p><title>Secretary</title><br /><a> Materials Research Society &#40;MRS&#41;<br /><date>June 2019 - June 2020</date></a><br /></p>
+                <div  className={styles.card}>
+                  <p><title>Secretary</title><br /><div> Materials Research Society &#40;MRS&#41;<br /><date>June 2019 - June 2020</date></div><br /></p>
                   <br />
                   &#8226;  Maintained records of meeting notes and meeting minutes&#44; along with various paperwork and forms&#46;
                   <br /><br />&#8226; Managed emails&#44; summarize contents meetings and events for members and club participants
                   <br /><br />&#8226; Assisted the President and VP in organizing meetings and various club competitions
-                </a>
+                </div>
 
-                <a  className={styles.card}>
-                  <p><title>Historian</title><br /><a> Materials Research Society &#40;MRS&#41;<br /><date>Sept&#46; 2018 - June 2019</date></a><br /></p>
+                <div  className={styles.card}>
+                  <p><title>Historian</title><br /><div> Materials Research Society &#40;MRS&#41;<br /><date>Sept&#46; 2018 - June 2019</date></div><br /></p>
                   <br />
                   &#8226;  Took and uploaded pictures for events and meetings hosted
                   <br /><br />&#8226; Worked with outreach chair &amp; promote events through social media /w pictures and advertisement
                   <br /><br />&#8226; Worked with Webmaster to upload pictures and content for website&#44; events&#44; etc&#46;
-                </a>
+                </div>
 
-              </a>
+              </div>
 
           </div>
         
@@ -160,7 +153,7 @@ export default function Home() {
           >
             <h2>Projects &amp; Work Done</h2>
         
-          <a>
+          <div>
 
             <a href="https://jonathantrinh.vercel.app/" target="_blank" rel="noreferrer" className={styles.card}>
               <p><title>Personal Site &rarr; </title><date><br />Aug. 2022 - Current</date></p>
@@ -169,7 +162,7 @@ export default function Home() {
               <br /><br /> &#8226; Special shoutout to Rajbir Johar&#44; Danial Beg&#44; and Suhas Jagannath&#46;
             </a>
          
-          </a>
+          </div>
 
             <a href="https://docs.google.com/document/d/1Xkci0hA98UrtymjMoVoA1M5H1dRsxnQ0aHoMEtcKdek/edit?usp=sharing" target="_blank" rel="noreferrer" className={styles.card}>
         

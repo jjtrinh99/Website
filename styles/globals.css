@@ -37,13 +37,13 @@ overallh{
 }
 
 .id1 {
-  text-align: center;
+  /*text-align: center;*/
   border: 0px solid white;
 }
 
 .id2 {
   display: flex;
-/*   width: 500px; */
+  width: 100%;
   justify-content: space-between;
   border: 0px solid white;
 }
@@ -55,13 +55,13 @@ overallh{
   border: 0px solid white;
 }
 
-
+/*
 .dropdown {
   position: relative;
   display:inline-block;
   color: white;
   background-color: inherit;
-}
+}*/
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -88,3 +88,6 @@ overallh{
 
 }
 
+p {
+  text-align: left;
+}
