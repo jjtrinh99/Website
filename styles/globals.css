@@ -12,11 +12,7 @@ a {
   text-align: center;
   font-size: 0.95rem;
 }
-date{
-  color: white;
-  text-align: center;
-  font-size: 0.7rem;
-}
+
 h1{
   text-align: center;
   font-size: 2rem;
@@ -30,11 +26,7 @@ h2{
 * {
   box-sizing: border-box;
 }
-overallh{
-  text-align: center;
-  font-size: 4rem; 
-  color: white;
-}
+
 
 .id1 {
   /*text-align: center;*/
