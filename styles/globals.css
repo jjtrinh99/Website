@@ -59,10 +59,11 @@ overallH{
 .dropdown {
   position: relative;
   display:inline-block;
-  color: white;
+  color: inherit;
+  background-color: inherit;
 }
 .dropdown-content {
-  display: none;
+  display: outside;
   position: absolute;
   min-width: 160px;
   background-color: inherit;
