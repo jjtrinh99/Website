@@ -65,12 +65,20 @@ export default function Home() {
           <div className={styles.container}>
 
             <div  className={styles.card}>
-              <p><title>Project Management Intern</title><br /></p>
-              <div className="location">Lumen Technologies<br /> June 2022 - Current</div>
-              <br />  
+              <div>
+              <title>Project Management Intern</title>
+              </div>
+              <div className={styles.location}>Lumen Technologies<br /> June 2022 - Current</div>
+              <div className={styles.bulletmargin}>
               &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
-              <br /><br />&#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
-              <br /><br />&#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
+              </div>  
+              <div>
+              &#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
+              </div>
+              <div>
+              &#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
+              </div>
+              
             </div>          
             
             <div  className={styles.card}>
@@ -112,7 +120,7 @@ export default function Home() {
           >
                 <div  className={styles.card}>
                   <p><title>Director</title><br /></p>
-                  <div className='location'>Cutie &amp; Citrus Hack <br />May 2020 - June 2021</div>
+                  <div className='date'>Cutie &amp; Citrus Hack <br />May 2020 - June 2021</div>
                 
                   &#8226; Led a committee consisting of team leads and subcommittees&#44; inclusive of Sponsorship&#44; Web Development&#44; Operations&#44; &amp; Marketing&#46;
                   <br /><br />&#8226; Streamlined and centralized workflow towards an impactful hackathon through documentation&#44; inclusivity&#44; engagement&#44; and collaboration&#46;
@@ -180,10 +188,9 @@ export default function Home() {
           <a href="hhttps://docs.google.com/document/d/1K9Kk7v5S7woE3pdP6iqIU7xLfaW-thwBnI_xWZO0x8k/edit" target="_blank" rel="noreferrer" className={styles.card}>
             <p> <title>Smart Pillow IoT &rarr;</title></p>
             <div className="date"> Sept&#46; 2021 - June 2021</div>
-            <br />&#8226; Senior Design in Embedded Systems&#46;
-            <br /><br />&#8226; Developed a Smart Pillow geared towards Health IoT &amp; Embedded Systems&#44; specifically through the creation of a Smart Device&#46; 
+            <br />&#8226; Senior Design in Embedded Systems&#46; Developed a Smart Pillow geared towards Health IoT &amp; Embedded Systems&#46; 
             <br /><br />&#8226; Includes mechanical actuation&#44; temperature heating &amp; cooling of the pillow&#44; heart rate sensing&#44; and snoring detection&#46;
-            <br /><br />&#8226; Helps user make adjustments to their sleep quality &amp; eliminate issues such as sleep apnea &amp; snoring&#46;
+            <br /><br />&#8226; Helps user make adjustments to their sleep quality &amp; eliminate issues such as sleep apnea&#46;
           
           </a>
           
