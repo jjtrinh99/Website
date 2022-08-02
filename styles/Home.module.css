@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 0.5px solid white;
+  border: 1px solid blue;
 }
 
 .overallh{
@@ -29,7 +29,7 @@
   display: flex;
   flex: 0 1 auto;
   padding: 1rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid blue;
   justify-content: center;
   align-items: center;
 }
@@ -44,20 +44,20 @@
 .title a {
   color: rgb(255, 255, 255);
   background-color:  rgb(75, 73, 73);
-  text-decoration: italic;
-  text-decoration: bold;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  text-underline-position: below;
 }
 
 .title {
   margin: 0;
-  line-height: 1.1;
-  font-size: 2rem;
+  line-height: 1;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .title
@@ -70,6 +70,12 @@
   line-height: 1.5;
   font-size: 1.2rem;
   /* text-align: center; */
+}
+.descriptors {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .date{
@@ -132,7 +138,7 @@
 
   display: inline-grid;
 
-  text-align: center;
+  text-align: left;
   color: white;
   background-color:  rgb(75, 73, 73);
   height: fit-content;
