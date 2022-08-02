@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .overallh{
@@ -113,6 +113,8 @@
   max-width: 800px;
 }
 
+
+
 .card {
   display: flex;
   flex-direction: column;
@@ -120,12 +122,11 @@
   padding: 1.2rem;
   text-align: left;
   color: white;
-  text-decoration: none;
   border: 3px solid #091f55;
   border-radius: 25px;
-  transition: color 0.15s ease, border-color 0.15s ease;
- min-height: 510px;
- max-height: 800px;
+ /* transition: color 0.15s ease, border-color 0.15s ease;*/
+ /*min-height: 510px;
+ max-height: 800px;*/
  flex-wrap: wrap;
   width: 25%;
   justify-content: flex-start;

@@ -59,44 +59,43 @@ export default function Home() {
       
          
             <h2>Work Experience</h2>
-
-          <div className={styles.container}>
-
-            <div  className={styles.card}>
-              <div>
-              <title>Project Management Intern</title>
-              </div>
-              <div className={styles.location}>Lumen Technologies<br /> June 2022 - Current</div>
-              <div className={styles.bulletmargin}>
-              &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
-              </div>  
-              <div>
-              &#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
-              </div>
-              <div>
-              &#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
-              </div>
-              
-            </div>          
             
-            <div  className={styles.card}>
-              <div>
-                  <title>IAW Lab Leader &#40;Instructor&#41;</title>
-              </div>
-                <div className={styles.location}>Academic Resource Center; <br /> University of California&#44; Riverside <br />May 2020 - June 2021</div>
-                <div> 
-                  <div className={styles.bulletmargin}>
-                    &#8226; Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
+              <div className={styles.container}>
+                <div  className={styles.card}>
+                  <div>
+                    <title>Project Management Intern</title>
                   </div>
+                  <div className={styles.location}>Lumen Technologies<br /> June 2022 - Current</div>
+                  <div className={styles.bulletmargin}>
+                    &#8226;  Study the workflows of various employees around the company including engineers&#44; managers&#44; and contractors&#44; to streamline needed documentation and bottlenecks for convenience&#46;
+                  </div>  
+                  <div>
+                    &#8226;  Obtain various overviews of the market &amp; projects being worked on to allow for full end-to-end completion of work by needed dates&#46;
+                  </div>
+                  <div>
+                    &#8226;  Gain exposure to various softwares such as Jira &amp; Agile&#46;
+                  </div>
+                
+                </div>          
+              
+              <div  className={styles.card}>
+                <div>
+                    <title>IAW Lab Leader &#40;Instructor&#41;</title>
                 </div>
-               <div>
-                <div className={styles.bulletmargin}>
-                    &#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
-                </div>
-                </div> 
-               <div>
-                  &#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
-                </div> 
+                  <div className={styles.location}>Academic Resource Center; <br /> University of California&#44; Riverside <br />May 2020 - June 2021</div>
+                  <div> 
+                    <div className={styles.bulletmargin}>
+                      &#8226; Leveraged the usage of internet domains to teach intermediate algebra to students&#46;
+                    </div>
+                  </div>
+                <div>
+                  <div className={styles.bulletmargin}>
+                      &#8226;  Conducted lab sessions for multiple classes of 20+ students to help grasp new strategies and concepts&#46;
+                  </div>
+                  </div> 
+                <div>
+                    &#8226;  Enhanced communication and teaching skills to provide an inclusive learning environment for students&#46;
+                  </div> 
             </div>
             
             <div  className={styles.card}>
