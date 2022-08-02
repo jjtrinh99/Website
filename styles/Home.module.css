@@ -124,9 +124,8 @@
   color: white;
   border: 3px solid #091f55;
   border-radius: 25px;
- /* transition: color 0.15s ease, border-color 0.15s ease;*/
- /*min-height: 510px;
- max-height: 800px;*/
+ transition: color 0.15s ease, border-color 0.15s ease;
+  height: fit-content;
  flex-wrap: wrap;
   width: 25%;
   justify-content: flex-start;

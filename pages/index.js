@@ -21,16 +21,17 @@ export default function Home() {
   
            <br /><p className={styles.code}>Master&#39;s student studying Computer Engineering &#64; UCI 
       </p> 
-     
+      <div className={styles.bulletmargin}>
        <div className={styles.description}>Nice seein&#39; you out here&#46;<span className={styles.logo}>
             <Image src="/waving-hand.png" width={72} height={40} alt="emoji"/> </span> 
-            <div className={styles.bulletmargin}></div>
-          <div>Computer Engineer based in California&#44; graduating in December 2022&#46; Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;</div>
-          
-          <div className={styles.bulletmargin}></div>Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;
+      </div>
+            <div>
+              Computer Engineer based in California&#44; graduating in December 2022&#46; Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;
+            </div>
+            <div> Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
       </div> 
       
-      <div className={styles.bulletmargin}></div><h2>Contact Info <span className={styles.logo}><Image src="/phoneit.png" width={72} height={40} alt="emoji"/></span></h2>
+      <h2>Contact Info <span className={styles.logo}><Image src="/phoneit.png" width={72} height={40} alt="emoji"/></span></h2>
             <div className={styles.descriptors}>Feel free to reach out to me through any of the platforms directly below&#46; </div> 
             <a href="mailto: jontrinh99@gmail.com?" target="_blank" rel="noreferrer"> Email &crarr;</a>
             <a href="https://www.linkedin.com/in/jontrinh/" target="_blank" rel="noreferrer"> LinkedIn &crarr;</a>
