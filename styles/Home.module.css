@@ -1,5 +1,11 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid white;
 }
 
 .overallh{
@@ -68,8 +74,13 @@
 
 .date{
   color: white;
-  text-align: center;
-  font-size: 0.7rem;
+  text-align: left;
+  font-size: 0.3rem;
+}
+.location{
+  color: white;
+  text-align: left;
+  font-size: 0.6rem;
 }
 
 .code {
@@ -93,6 +104,7 @@
 
 .card {
   display: inline-flex;
+  /* flex-direction: row; */
   margin: 1.2rem;
   padding: 1.2rem;
   text-align: left;
@@ -102,15 +114,15 @@
   border-radius: 25px;
   transition: color 0.15s ease, border-color 0.15s ease;
  min-height: 510px;
- max-height: 600px;
-  flex-wrap: wrap;
+ max-height: 530px;
+ flex-wrap: wrap;
   width: 18%;
-  justify-content: center;
+  justify-content: left;
   background-color:  rgb(75, 73, 73);
 
 }
 .card title{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 
   display: inline-grid;
@@ -168,3 +180,5 @@
 #content_text {
   text-align: center;
 }
+
+
