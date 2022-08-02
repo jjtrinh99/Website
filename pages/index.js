@@ -138,7 +138,7 @@ export default function Home() {
 
                 <div  className={styles.card}>
                   <p><title>Historian</title></p>
-                  <div classname="location">Materials Research Society &#40;MRS&#41;<br />June 2019 - June 2020</div> 
+                  <div className="location">Materials Research Society &#40;MRS&#41;<br />June 2019 - June 2020</div> 
                   
                   <br />
                   &#8226;  Took and uploaded pictures for events and meetings hosted
