@@ -31,7 +31,7 @@ export default function Home() {
             <Image src="/waving-hand.png" width={72} height={40} alt="emoji"/> </span> 
       </div>
             <div>
-              Computer Engineer based in California&#44; graduating in December 2022&#46; Looking into new-grad full-time roles in Software Development Engineering &#40;SDE&#41;&#46;
+              Computer Engineer based in California&#44; graduating in December 2022&#46; Looking into new-grad full-time roles&#46;
             </div>
             <div> Hope you can find more about me&#58; I&#39;ve included my Work + Volunteering Experience&#44; projects worked on&#44; and some hobbies&#46;</div>
       </div> 
