@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React from "react";
+import 'react-bootstrap'
+import Accordion from 'react-bootstrap/Accordion'
+import Card from 'react-bootstrap'
+import CardGroup from 'react-bootstrap'
+import CardDeck from 'react-bootstrap'
 
 export default function Home() {
   return (
@@ -139,8 +144,7 @@ export default function Home() {
             </div>
               
           </div>
-
-            <h2>Volunter Experience</h2>
+         
 
           <div className={styles.container}
           >
@@ -358,5 +362,7 @@ export default function Home() {
         </a>
       </footer>
     </div>
+  
+    
   )
 }
